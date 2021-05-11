@@ -26,6 +26,7 @@ function App() {
       const token = await res.json();
       localStorage.setItem("jwt", token.results.token);
       dispatch(isJWT(true));
+      dispatch(setUserTostore(localStorage.getItem("jwt")));
     } else {
       dispatch(isJWT(false));
       dispatch(setUserTostore(localStorage.getItem("jwt")));
