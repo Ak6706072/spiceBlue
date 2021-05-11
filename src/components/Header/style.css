@@ -1,0 +1,12 @@
+.header {
+  min-height: 50px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+}
+.header_btn {
+  background-color: white;
+  color: rgb(0, 12, 22);
+  border: none;
+  margin-left: 15px;
+}

@@ -1,0 +1,36 @@
+.task_pannel {
+  display: flex;
+  min-height: 250px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 9px;
+  background-color: aliceblue;
+  border: 1px solid rgb(233, 233, 233);
+}
+.task_pannel_date_time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task_pannel_date_time p {
+  margin-bottom: 5px;
+}
+.task_pannel_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.task_pannel_cancel_btn {
+  margin-right: 7px;
+  border: none;
+  background-color: aliceblue;
+}
+.task_pannel_save_btn {
+  background-color: rgb(71, 187, 127);
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 5px;
+}
+.task_pannel_cancel_btn:hover {
+  background-color: rgb(71, 187, 127);
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 5px;
+}

@@ -1,0 +1,13 @@
+.addtask {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(233, 233, 233);
+  background-color: rgb(248, 248, 250);
+  padding-left: 5px;
+  border-radius: 2px;
+}
+.addtask_btn {
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}

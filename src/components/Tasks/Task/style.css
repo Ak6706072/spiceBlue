@@ -1,0 +1,24 @@
+.task {
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+.task_body {
+  display: flex;
+}
+.task_body > div > img {
+  width: 50px;
+}
+.task_body_right {
+  display: flex;
+  flex-direction: column;
+}
+.task_right {
+  display: flex;
+  align-items: center;
+}
+.task_right > button {
+  border: none;
+  background-color: aliceblue;
+}
